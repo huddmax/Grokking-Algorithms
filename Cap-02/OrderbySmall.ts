@@ -1,5 +1,6 @@
 const arrayX = [7, 6, 5, 4, 3, 2, 1, 8, 9];
 const array = [7, 3, 1, 3, 7];
+const array1 = [7, 4, 1, 6, 9,];
 
 function findSmallNumber(arrayX: number[]):number {
     let smallNumber = arrayX[0];
@@ -46,3 +47,8 @@ function orderBy(array:number[]):number[] {
     return newArray
 }
 
+orderBy(arrayX);
+orderBy(array);
+orderBy(array1);
+
+// Basta usar a função orderBy() passando qualquer array como parametro (que seja composto por números).
